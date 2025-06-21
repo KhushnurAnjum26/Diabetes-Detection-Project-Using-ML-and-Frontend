@@ -20,5 +20,6 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("",views.home),
-    path("predict/", views.predict, name="predict")
+    path("predict/", views.predict, name="predict"),
+    
 ]
